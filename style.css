@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +11,25 @@
     list-style: none;
     scroll-behavior: smooth;
 }
+
+.bagel-fat-one-regular {
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
 
 body {
     background: black;
@@ -109,12 +132,14 @@ a:hover {
 }
 
 .number_01 {
+    font-family: "Silkscreen", sans-serif;
     font-size: 100px!important;
     font-weight: 800;
     text-transform: uppercase;
 }
 
 h1 {
+    font-family: "Silkscreen", sans-serif;
     text-transform: uppercase;
     font-size: 100px;
     font-weight: 800;
