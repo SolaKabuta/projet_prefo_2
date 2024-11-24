@@ -130,17 +130,19 @@ a:hover {
 .section_01 {
   display: grid;
   gap: 100px;
-  padding: 200px 80px 0 80px;
+  padding: 0px 80px 0 80px;
   align-items: center;
   justify-content: center;
 }
 
 .section_01 p {
   font-size: 20px;
+  background: red;
+  width: 100vw;
 }
 
 .p_01 {
-  display: flex;
+  
   align-items: center;
   justify-content: center;
   gap: 100px;
@@ -150,7 +152,7 @@ a:hover {
 .p_01 p {
   padding-bottom: 50px;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 26px;
 }
 
 .number_01 {
@@ -213,9 +215,7 @@ footer p {
 
 main {
   padding: 200px 0 0 80px;
-  justify-content: space-between;
-  gap: 40px;
-  width: 100%;
+  justify-content: space-evenly;
   display: flex;
   align-items: center;
 }
@@ -236,6 +236,12 @@ main img {
   font-size: 40px;
   position: relative;
   top: 25px;
+}
+
+.card_backgroun {
+  background: white;
+  height: 700px;
+  width: 400px;
 }
 
 .main_p_interview {
