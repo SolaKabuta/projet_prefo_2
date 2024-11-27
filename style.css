@@ -190,7 +190,7 @@ iframe {
 /* CSS Parameters of Interview page */
 
 main {
-  padding: 150px 0 0 80px;
+  padding: 120px 0 0 80px;
   color: black;
   justify-content: space-around;
   width: 100%;
@@ -206,6 +206,7 @@ main {
   border-radius: 20px;
   height: 800px;
   width: 1000px;
+  
 }
 
 .avatar {
@@ -218,6 +219,7 @@ main {
   padding: 20px;
   width: 900px;
   height: 500px;
+  box-shadow: -12px 13px 19px -8px rgba(0,0,0,0.1);
 }
 
 .avatar_img {
@@ -226,6 +228,7 @@ main {
   border-radius: 20px;
   width: 350px;
   height: 455px;
+  box-shadow: -12px 13px 19px -8px rgba(0,0,0,0.1);
 }
 
 .main_title {
@@ -264,9 +267,14 @@ main {
 
 .title {
   font-family: "Silkscreen", sans-serif;
-  color: grey;
+  color: rgba(0 0 0/40%);
   padding-bottom: 20px;
   font-weight: 600;
+}
+
+.enterprise {
+  color: rgba(0 0 0/40%);
+  font-weight: 500;
 }
 
 .date {
@@ -275,13 +283,13 @@ main {
 
 #stack {
   font-weight: 600;
-  grid-row: 3 / span 3;
+  grid-row: 2 / span 3;
   grid-column: 1;
   font-weight: 600;
   border: 2px solid rgba(0 0 0/5%);
   border-radius: 20px;
   padding: 20px;
-  height: 120px;
+  height: 280px;
 }
 
 .stack {
