@@ -199,19 +199,32 @@ main {
   align-items: center;
 }
 
-.avatar {
-  background-image: url("/assets/images/portrait.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.avatar_card {
+  position: relative;
+  background: white;
   border-radius: 20px;
   height: 600px;
-  width: 400px;
+  width: 1000px;
 }
 
+.avatar {
+  position: absolute;
+  right: 0;
+  top: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 200px;
+}
+
+.avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
 
 .dev_name {
   font-family: "Silkscreen", sans-serif;
+  color: black;
   font-size: 40px;
   position: relative;
   top: 0;
