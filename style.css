@@ -127,6 +127,8 @@ a:hover {
   transform: translate(10px);
 }
 
+/* Landing page hero section */
+
 .section_01 {
   display: grid;
   gap: 100px;
@@ -135,9 +137,6 @@ a:hover {
   justify-content: center;
 }
 
-.section_01 p {
-  font-size: 20px;
-}
 
 .p_01 {
   display: flex;
@@ -154,14 +153,9 @@ a:hover {
   padding-bottom: 50px;
   font-weight: 500;
   line-height: 28px;
+  font-size: 20px;
 }
 
-.number_01 {
-  font-family: "Silkscreen", sans-serif;
-  font-size: 100px !important;
-  font-weight: 800;
-  text-transform: uppercase;
-}
 
 h1 {
   font-family: "Silkscreen", sans-serif;
@@ -183,6 +177,8 @@ h1 {
   background: rgb(255, 255, 255);
 }
 
+/* Spline element */
+
 iframe {
   position: fixed;
   z-index: -10;
@@ -191,24 +187,6 @@ iframe {
   bottom: 0;
   min-width: 100%;
   height: 100%;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  background: black;
-  height: 60px;
-  width: 100%;
-}
-
-footer p {
-  font-family: "Silkscreen", sans-serif;
-  color: black;
-  border-radius: 20px;
-  font-size: 100px;
-  text-transform: uppercase;
-
-  padding: 50px 450px 50px 450px;
 }
 
 /* CSS Parameters of Interview page */
@@ -221,12 +199,6 @@ main {
   align-items: center;
 }
 
-main img {
-  width: 400px;
-  height: 500px;
-  border-radius: 20px;
-}
-
 .avatar {
   background-image: url("/assets/images/portrait.jpg");
   background-repeat: no-repeat;
@@ -237,25 +209,10 @@ main img {
   width: 400px;
 }
 
-.dev_name {
-  position: absolute;
-  top: 250px;
-}
-
-.avatar p {
-  text-align: left;
-}
 
 .dev_name {
   font-family: "Silkscreen", sans-serif;
   font-size: 40px;
   position: relative;
   top: 0;
-}
-
-.main_p_interview {
-  padding-bottom: 50px;
-  font-weight: 500;
-  line-height: 28px;
-  font-size: 20px;
 }
