@@ -144,7 +144,7 @@ a:hover {
   gap: 100px;
   width: 100%;
   background: rgba(0 0 0/40%);
-  padding: 100px;
+  padding: 50px;
   border-radius: 20px;
 }
 
@@ -204,16 +204,16 @@ main {
   align-items: center;
   background: white;
   border-radius: 20px;
-  height: 650px;
+  height: 800px;
   width: 1000px;
 }
 
 .avatar {
   display: grid;
-  grid-template-columns: repeat(2, 400px);
-  grid-template-rows: repeat(3, 100px);
-  gap: 100px;
-  border: 1px solid grey;
+  grid-template-columns: repeat(2, 450px);
+  grid-template-rows: repeat(3, 118px);
+  gap: 50px;
+  border: 2px solid rgba(0 0 0/5%);
   border-radius: 20px;
   padding: 20px;
   width: 900px;
@@ -222,30 +222,37 @@ main {
 
 .avatar_img {
   grid-column: 2;
+  grid-row: 1 / span 3;
   border-radius: 20px;
   width: 350px;
-  height: 450px;
+  height: 455px;
 }
 
-.enterprise_info {
+.main_title {
   font-family: "Silkscreen", sans-serif;
 }
 
-.enterprise_info h1 {
+.main_title h1 {
   font-size: 40px;
-  padding: 20px 0 20px 20px;
+  padding: 20px 0 10px 20px;
 }
 
-.enterprise_info p {
-  padding: 0 0 20px 20px;
+.main_title p {
+  padding-left: 20px;
   color: grey;
   font-weight: 500;
 }
 
 .card_layout p {
-  font-family: "Silkscreen", sans-serif;
   font-weight: 600;
   grid-column: 1;
+}
+
+.card_layout span {
+  font-size: 12px;
+  font-weight: 500;
+  color: grey;
+  padding-left: 10px;
 }
 
 .avatar_name {
@@ -262,7 +269,22 @@ main {
   font-weight: 600;
 }
 
-.card_info {
-  grid-row: 2;
+.date {
+  color: grey;
+}
+
+#stack {
+  font-weight: 600;
+  grid-row: 3 / span 3;
   grid-column: 1;
+  font-weight: 600;
+  border: 2px solid rgba(0 0 0/5%);
+  border-radius: 20px;
+  padding: 20px;
+  height: 120px;
+}
+
+.stack {
+  padding-bottom: 10px;
+  color: rgba(0 0 0/40%);
 }
