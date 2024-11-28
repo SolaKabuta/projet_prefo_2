@@ -135,6 +135,7 @@ a:hover {
   padding: 60px 80px 100px 80px;
   align-items: center;
   justify-content: center;
+  height: 100vh;
   animation: card-anim 1s ease-in-out;
 }
 
@@ -198,7 +199,32 @@ iframe {
   }
 }
 
-/* CSS Parameters of Interview page */
+/* Footer */
+
+footer {
+  display: flex;
+  gap: 800px;
+  text-transform: uppercase;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: black;
+  color: white;
+}
+
+footer li {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer_menu {
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Interview page */
 
 main {
   padding: 60px 0 0 80px;
