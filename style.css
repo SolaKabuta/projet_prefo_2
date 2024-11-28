@@ -373,6 +373,7 @@ main {
   top: 70%;
   width: 500px;
   height: 300px;
+  animation: map-anim 2s ease-in-out;
 }
 
 @keyframes map-anim {
