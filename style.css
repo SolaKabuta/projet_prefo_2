@@ -318,20 +318,42 @@ main {
   color: rgba(0 0 0/40%);
 }
 
+/* Exposition */
 
-.test {
+.card_expo {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
   background: red;
-  width: 900px;
+  width: 50%;
   height: 500px;
-}	
+}
+
+.white {
+  background: white;
+  width: 50%;
+  height: 500px;
+}
 
 /* MAP */
 
 .map {
   position: absolute;
-  z-index: 100;
-  top: 50vw;
+  z-index: 1000;
+  top: 70%;
   width: 500px;
   height: 300px;
-  opacity: 2;
+}
+
+@keyframes map-anim {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
