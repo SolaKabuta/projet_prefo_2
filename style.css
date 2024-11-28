@@ -152,9 +152,8 @@ a:hover {
 
 .p_01 p {
   padding-bottom: 50px;
-  font-weight: 500;
   line-height: 28px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 h1 {
@@ -202,27 +201,58 @@ iframe {
 /* Footer */
 
 footer {
-  display: flex;
-  gap: 800px;
+  display: grid;
+  place-content: center;
   text-transform: uppercase;
   font-size: 10px;
-  justify-content: center;
-  align-items: center;
+  height: 450px;
   padding: 20px;
   background: black;
   color: white;
 }
 
-footer li {
-  text-align: center;
-  padding-bottom: 10px;
-}
 
 .footer_menu {
+  display: flex;
+  padding: 50px 0 50px 0;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
 
+footer p {
+  text-align: center;
+  padding: 20px;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 200px;
+  font-family: "Silkscreen", sans-serif;
+  background: #000452;
+  border-radius: 20px;
+  width: 1000px;
+}
+
+footer div {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_contact {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot-1 {
+  background: white;
+  width: 10px;
+  height: 10px;
+}
 
 /* Interview page */
 
@@ -255,6 +285,7 @@ main {
   border-radius: 20px;
   height: 800px;
   width: 1000px;
+  padding: 0 0 60px 0;
 }
 
 .avatar {
@@ -354,15 +385,21 @@ main {
 }
 
 .red {
-  background: red;
-  width: 50%;
+  background-image: url("/assets/images/atome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
   height: 500px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .white {
   background: white;
-  width: 50%;
+  width: 40%;
   height: 500px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 /* MAP */
