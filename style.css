@@ -72,6 +72,7 @@ nav {
 
 .home_btn {
   display: flex;
+  gap: 10px;
   align-items: center;
 }
 
@@ -346,6 +347,11 @@ main {
   box-shadow: -12px 13px 19px -8px rgba(0, 0, 0, 0.1);
 }
 
+.avatar_bio {
+  grid-column: 1;
+  grid-row: 1;
+}
+
 .avatar_img {
   grid-column: 2;
   grid-row: 1 / span 3;
@@ -406,13 +412,12 @@ main {
 
 #stack {
   font-weight: 600;
-  grid-row: 2 / span 3;
+  grid-row: 3;
   grid-column: 1;
   font-weight: 600;
   border: 2px solid rgba(0 0 0/5%);
   border-radius: 20px;
   padding: 20px;
-  height: 280px;
 }
 
 .stack {
