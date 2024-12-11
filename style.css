@@ -452,22 +452,10 @@ main {
   align-items: center;
 }
 
-.red {
-  background-image: url("/assets/images/atome.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 40%;
-  height: 500px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-.white {
-  background: white;
-  width: 40%;
-  height: 500px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+.expo_subtitle {
+  font-family: "Silkscreen", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 /* MAP */
