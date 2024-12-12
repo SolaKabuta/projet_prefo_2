@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet prefo</title>
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <nav>
@@ -72,8 +73,13 @@
       </div>
     </section>
     <section id="team">
-      <div class="team" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center">
+      <div
+        class="team"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-anchor-placement="left-center"
+        data-aos-delay="500"
+      >
         <img
           src="/assets/images/nicolas.jpg"
           alt="portrait de Nicolas Felten"
@@ -89,7 +95,13 @@
           <a href="mailto:nicolas@cropmark.com">nicolas@cropmark.com</a>
         </div>
       </div>
-      <div class="team">
+      <div
+        class="team"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-anchor-placement="left-center"
+        data-aos-delay="500"
+      >
         <img
           src="/assets/images/thibault.jpg"
           alt="portrait de Nicolas Felten"
@@ -103,13 +115,17 @@
           </p>
           <p class="team_title">Developer + Partner</p>
           <p>
-            <a href="mailto:thibault@cropmark.com"
-              >thibault@cropmark.com</a
-            >
+            <a href="mailto:thibault@cropmark.com">thibault@cropmark.com</a>
           </p>
         </div>
       </div>
-      <div class="team">
+      <div
+        class="team"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-anchor-placement="left-center"
+        data-aos-delay="500"
+      >
         <img
           src="/assets/images/jeff.jpg"
           alt="portrait de Nicolas Felten"
@@ -165,6 +181,9 @@
       </div>
       <h2>CF2M</h2>
     </footer>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
