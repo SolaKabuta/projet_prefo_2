@@ -494,8 +494,14 @@ main {
   color: rgba(0 0 0/40%);
 }
 
+/* Questions */
+
 .questions {
   text-align: center;
+}
+
+.answers {
+  
 }
 
 
