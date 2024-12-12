@@ -29,13 +29,11 @@
 //     console.log("Il fait chaud")
 // }
 
-// let y = 2, x = 3, z = 4
+let y = 2, x = 3, z = 4
 
-// console.log(x)
+console.log(x)
 
 
-<script>
-  AOS.init();
-</script>
+
 
 
