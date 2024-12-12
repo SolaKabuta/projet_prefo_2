@@ -460,14 +460,14 @@ main {
 
 /* MAP */
 
-.map {
+/* .map {
   position: absolute;
   z-index: 1000;
   top: 70%;
   width: 50px;
   height: 300px;
   animation: map-anim 2s ease-in-out;
-}
+} */
 
 @keyframes map-anim {
   0% {

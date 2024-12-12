@@ -6,7 +6,7 @@
 
 - Design conclusion
 
-- Add entreprise card
+- Add entreprise car
 
 - Check inspiration on [Awwwards](https://www.awwwards.com/)
 
