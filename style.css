@@ -311,6 +311,53 @@ footer div {
   height: 10px;
 }
 
+
+/* Entreprise page */
+
+section {
+  align-items: center;
+  animation: card-anim 1s ease-in-out;
+}
+
+
+
+.team {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: black;
+  animation: card-anim 1s ease-in-out;
+}
+
+.team img {
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+  filter: grayscale();
+  height: 500px;
+  width: 370px;
+}
+
+.team img:hover {
+  transform: translateX(20px);
+  filter: none;
+}
+
+.team_name {
+  font-family: "Silkscreen", sans-serif;
+  font-size: 50px;  
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.team_title {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
 /* Interview page */
 
 main {
@@ -443,6 +490,11 @@ main {
   color: rgba(0 0 0/40%);
 }
 
+.questions {
+  text-align: center;
+}
+
+
 /* Exposition */
 
 .card_expo {
@@ -458,16 +510,11 @@ main {
   font-weight: 600;
 }
 
-/* MAP */
-
-/* .map {
-  position: absolute;
-  z-index: 1000;
-  top: 70%;
-  width: 50px;
-  height: 300px;
-  animation: map-anim 2s ease-in-out;
-} */
+.expo {
+  border-radius: 20px;
+  width: 1000px;
+  height: 500px;
+}
 
 @keyframes map-anim {
   0% {
