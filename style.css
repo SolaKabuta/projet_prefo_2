@@ -511,8 +511,15 @@ main {
   text-align: center;
 }
 
-.answers {
-  
+.interview_card {
+  display: flex;
+  gap: 50px;
+  justify-content: left;
+  padding-bottom: 20px;
+}
+
+.interview_card p {
+  width: 50%;
 }
 
 
