@@ -538,7 +538,7 @@ main {
   display: flex;
   gap: 50px;
   justify-content: left;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .interview_card p {
@@ -549,7 +549,11 @@ main {
   font-weight: 550;
 }
 
-/* Exposition */
+.section_01.section_question {
+  height: auto;
+}
+
+/* Exposition Page */
 
 .card_expo {
   padding-top: 30px;
