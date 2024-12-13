@@ -61,7 +61,7 @@ Consultez les fichiers du dossier /img pour des exemples visuels de l'utilisatio
 Toutes les contributions sont les bienvenues ! Pour soumettre des suggestions ou corrections :
 
 Ouvrez une issue
-Proposez une pull request
+Proposez une pull request <br />
 ⚠️ Avertissement
 Ce projet est exclusivement destiné à des fins éducatives. Respectez les bonnes pratiques et les règles éthiques lors de vos travaux.
 
