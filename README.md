@@ -9,45 +9,53 @@ Publication GitHub : Connectez votre dépôt local à GitHub via SSH ou HTTPS et
 Illustrations : Consultez des captures d'écran dans le répertoire /img pour mieux comprendre les étapes.
 🛠️ Installation et Configuration
 Clonez le dépôt :
-bash
-Copier le code
+
+```bash
 git clone <URL_DU_DEPOT>
 Naviguez dans le projet :
-bash
-Copier le code
+```
+
+```bash
 cd projet_prefo_2
 Configurez Git si ce n’est pas déjà fait :
-bash
-Copier le code
+```
+
+```bash
 git config --global user.name "Votre Nom"  
 git config --global user.email "Votre Email"
 🧑‍💻 Utilisation
 📝 Initialisation d’un dépôt local
 Pour démarrer un nouveau projet, créez un dépôt :
+```
 
-bash
+```bash
 Copier le code
 git init
 🔄 Suivi et sauvegarde des fichiers
 Ajoutez les fichiers que vous souhaitez suivre :
-bash
-Copier le code
+```
+
+```bash
 git add .
 Sauvegardez avec un commit descriptif :
-bash
-Copier le code
+```
+
+```bash
 git commit -m "Premier commit"
 🌐 Publiez sur GitHub
 Ajoutez un lien distant :
-bash
-Copier le code
+```
+
+```bash
 git remote add origin <URL_Distant>
 Envoyez vos modifications :
-bash
-Copier le code
+```
+
+```bash
 git push -u origin main
 🖼️ Captures d’écran
 Consultez les fichiers du dossier /img pour des exemples visuels de l'utilisation des commandes.
+```
 
 🤝 Contributions
 Toutes les contributions sont les bienvenues ! Pour soumettre des suggestions ou corrections :
