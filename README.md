@@ -10,6 +10,8 @@ Illustrations : Consultez des captures d'écran dans le répertoire /img pour mi
 🛠️ Installation et Configuration
 Clonez le dépôt :
 
+<br />
+
 ```bash
 git clone <URL_DU_DEPOT>
 Naviguez dans le projet :
