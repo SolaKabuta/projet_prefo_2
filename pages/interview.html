@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet prefo</title>
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <nav>
@@ -84,7 +85,13 @@
     <section class="section_01">
       <h2 class="questions">Questions</h2>
       <div class="p_02">
-        <div class="interview_card">
+        <div
+          class="interview_card"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="left-center"
+          data-aos-delay="500"
+        >
           <p>01. Comment es-tu devenue développeuse ?</p>
           <p>
             Ayant fait des études en graphisme, <br />
@@ -94,7 +101,13 @@
             en suivant une formation spécialisée en développement front-end.
           </p>
         </div>
-        <div class="interview_card">
+        <div
+          class="interview_card"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="left-center"
+          data-aos-delay="1000"
+        >
           <p>
             02. A quoi ressemble une journée typique <br />
             en tant que développeuse ?
@@ -106,12 +119,16 @@
             en suivant une formation spécialisée en développement front-end.
           </p>
         </div>
-        <div class="interview_card">
+        <div
+          class="interview_card"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="left-center"
+          data-aos-delay="1500"
+        >
+          <p>03. Qu'est-ce qui t'as amené à travailler chez Cropmark ?</p>
           <p>
-            03. Qu'est-ce qui t'as amené à travailler chez Cropmark ?
-          </p>
-          <p>
-            Tout d'babord le plaisir de travailler sur des projets <br> dans le secteur culturel. <br>
+            L'envie de travailler sur des projets dans le secteur culturel. <br />
             Permettant de combiner créativité et expertise technique.
           </p>
         </div>
@@ -180,5 +197,9 @@
       </div>
       <h2>CF2M</h2>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
