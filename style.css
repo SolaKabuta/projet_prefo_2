@@ -455,6 +455,17 @@ main {
   grid-column: 1;
 }
 
+.card_layout a {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 600;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+.card_layout a:hover {
+  color: yellowgreen;
+}
+
 .card_layout span {
   font-size: 12px;
   font-weight: 500;
@@ -466,7 +477,7 @@ main {
   font-family: "Silkscreen", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .title {
@@ -496,16 +507,25 @@ main {
 }
 
 .stack {
+  font-size: 12px;
   padding-bottom: 10px;
   color: rgba(0 0 0/40%);
 }
 
 .card_info {
-  transition: 0.5ùs ease-in-out;
+  display: inline-flex;
 }
 
-.card_info:hover {
+.card_info span {
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.card_info span:hover {
   color: yellowgreen;
+  background: black;
 }
 
 /* Questions */
