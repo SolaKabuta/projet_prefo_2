@@ -112,7 +112,6 @@ nav {
   color: white;
 }
 
-
 nav ul {
   display: flex;
   gap: 10px;
@@ -128,7 +127,6 @@ a {
 a:hover {
   transform: translate(10px);
 }
-
 
 /* Landing page hero section */
 
@@ -152,7 +150,6 @@ a:hover {
   animation: card-anim 1s ease-in-out;
 }
 
-
 .p_01 {
   display: flex;
   align-items: center;
@@ -170,7 +167,8 @@ a:hover {
   font-size: 16px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "Silkscreen", sans-serif;
   text-transform: uppercase;
   font-size: 80px;
@@ -311,14 +309,11 @@ footer div {
   height: 10px;
 }
 
-
 /* Entreprise page */
 
 section {
   align-items: center;
 }
-
-
 
 .team {
   display: flex;
@@ -345,7 +340,7 @@ section {
 
 .team_name {
   font-family: "Silkscreen", sans-serif;
-  font-size: 50px;  
+  font-size: 50px;
   text-transform: uppercase;
   font-weight: 600;
   padding-bottom: 10px;
@@ -505,6 +500,14 @@ main {
   color: rgba(0 0 0/40%);
 }
 
+.card_info {
+  transition: 0.5ùs ease-in-out;
+}
+
+.card_info:hover {
+  color: yellowgreen;
+}
+
 /* Questions */
 
 .questions {
@@ -522,6 +525,9 @@ main {
   width: 50%;
 }
 
+.q_01 {
+  font-weight: 550;
+}
 
 /* Exposition */
 
@@ -561,7 +567,6 @@ main {
 
 /* Responsive Mobile + Tablet */
 @media all and (min-width: 390px) and (max-width: 1000px) {
-
   /* Index Layout */
 
   h1,
@@ -572,7 +577,6 @@ main {
   nav {
     visibility: hidden;
   }
-
 
   .p_01 {
     display: grid;
@@ -587,7 +591,6 @@ main {
   footer {
     width: 100vw;
   }
-  
 
   footer h2 {
     font-size: 100px;
@@ -618,14 +621,12 @@ main {
 /* Responsive Small Laptop */
 
 @media screen and (max-width: 1100px) {
-
   /* Index Layout */
 
   h1,
   h2 {
     font-size: 50px;
   }
-
 
   .p_01 {
     display: grid;
@@ -639,7 +640,7 @@ main {
   #section {
     padding-top: 80px;
   }
-  
+
   /* Enterprise Layout */
 
   .team_name {
