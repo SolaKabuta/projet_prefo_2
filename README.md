@@ -1,4 +1,4 @@
-🌟 Projet De Préformation 
+🌟 Projet De Préformation au CF2M
 📚 Description
 Ce projet est une introduction pratique aux outils et méthodologies fondamentaux du développement web moderne. Il vise à enseigner les bases de Git, la gestion des versions, et la collaboration à l’aide de GitHub. À travers des exercices pratiques, il vous guide dans la mise en place d'un dépôt local et sa synchronisation avec un dépôt distant.
 
